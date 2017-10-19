@@ -1,0 +1,11 @@
+version: '3'
+services:
+  c7-1:
+    build: 
+      context: ../docker/dockerfiles/centos7-sshd
+      dockerfile: Dockerfile
+    image: c7
+  c7-2:
+    image: c7
+  c7-3:
+    image: c7
