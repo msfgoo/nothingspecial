@@ -8,3 +8,4 @@ echo "let g:syntastic_always_populate_loc_list = 1" >> ~/.vim/vimrc/syntastic_vi
 echo "let g:syntastic_auto_loc_list = 1" >> ~/.vim/vimrc/syntastic_vimrc
 echo "let g:syntastic_check_on_open = 1" >> ~/.vim/vimrc/syntastic_vimrc
 echo "let g:syntastic_check_on_wq = 0" >> ~/.vim/vimrc/syntastic_vimrc
+echo "DON'T FORGET TO INSTALL FLAKE8 !!! - pip install flake8"
